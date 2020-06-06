@@ -19,14 +19,13 @@ $ npm install joshjs
 #### Using HTML <script> tag
 ```sh
 <script src="js/josh.min.js">
+  
 // Or use ES5
 <script src="js/josh.es5.min.js">
 ```
 ### How to Markup
 ```sh
-<div class="josh-js" data-josh-anim-name="fadeInUp">
-    A JavaScript library to animate content on page scroll.
-</div>
+<div class="josh-js" data-josh-anim-name="fadeInUp">A JavaScript library to animate content on page scroll.</div>
 // You have to provide below data attribute with animation name from Animate.css library or your own library
 data-josh-anim-name="fadeInUp"
 ```
@@ -54,12 +53,16 @@ If you markup and called JavaScript like above so that you are good to go!
 const josh = new Josh({
     // DOM CSS class to Animate, default is "josh-js"
     initClass: "josh-js",
+    
     // Animation CSS class from Animate.css library
     animClass: "animate__animated",
+    
     // Element distance of viewport to triggering the animation. default is 0.2 means 20% of element view animation will trigger
     offset: 0.2,
+    
     // Animation will trigger on Mobile or not. Default is true
     animateInMobile: true,
+    
     // Animation will trigger on newly added element or not. Default is false
     onDOMChange: false,
   });
