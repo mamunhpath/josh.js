@@ -1,0 +1,34 @@
+{
+  "name": "joshjs",
+  "version": "1.0.0",
+  "description": "A JavaScript library to animate content on page scroll.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamunhpath/josh.js.git"
+  },
+  "keywords": [
+    "javaScript",
+    "animation",
+    "javaScript-animation-on-scroll",
+    "animation-reveal-on-scroll",
+    "vanila-javascript",
+    "plain-javascript",
+    "scroll-animation"
+  ],
+  "author": "Al Mamun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mamunhpath/josh.js/issues"
+  },
+  "homepage": "https://mamunhpath.github.io/josh.js",
+  "dependencies": {
+    "animate.css": "^4.1.0"
+  }
+}
