@@ -29,6 +29,28 @@ npm install joshjs
 // Or use ES5
 <script src="js/josh.es5.min.js">
 ```
+## CDN
+
+**jsDelivr**
+
+```
+//ES6
+https://cdn.jsdelivr.net/npm/joshjs@1.0.0/dist/josh.min.js
+
+//ES5
+https://cdn.jsdelivr.net/npm/joshjs@1.0.0/dist/josh.es5.min.js
+
+```
+
+**UNPKG**
+
+```
+//ES6
+https://unpkg.com/joshjs@1.0.0/dist/josh.min.js
+
+//ES5
+https://unpkg.com/joshjs@1.0.0/dist/josh.min.js
+```
 
 ## How to Markup
 
