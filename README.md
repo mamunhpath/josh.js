@@ -131,7 +131,7 @@ If you want to support Internet Explore so that you can use Polifill for Interse
 **Developed by Al Mamun**
 
 - [Github Profile](//github.com/mamunhpath)
-- [Linked In](https://www.linkedin.com/in/al-mamun-38874348/)
+- [LinkedIn](https://www.linkedin.com/in/al-mamun-38874348/)
 - [Facebook Profile](//facebook.com/mamunhpath)
 
 ## Want to contribute? Great!
