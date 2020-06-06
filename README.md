@@ -10,20 +10,28 @@
   - Work on newly created DOM
 
 ## [See it in action!](https://mamunhpath.github.io/josh.js/) 
+
 **&#x1F49D; Loved it, Press the Star Button &#x1F49D;**
+
 ## Installation
+
 #### Using NPM
+
 ```
 $ npm install joshjs
 ```
+
 #### Using HTML <script> tag
+
 ```
 <script src="js/josh.min.js">
   
 // Or use ES5
 <script src="js/josh.es5.min.js">
 ```
+
 ### How to Markup
+
 ```
 <div class="josh-js" data-josh-anim-name="fadeInUp">A JavaScript library to animate content on page scroll.</div>
   
@@ -31,14 +39,19 @@ $ npm install joshjs
 
 data-josh-anim-name="fadeInUp"
 ```
+
 ### JavaScript
+
 ```
 const josh = new Josh();
 ```
+
 If you markup and called JavaScript like above so that you are good to go!
 
 ### Advanced usage
+
 **HTML**
+
 ```
 <div
     class="element josh-js"
@@ -50,7 +63,9 @@ If you markup and called JavaScript like above so that you are good to go!
     Written on ES6
 </div>
 ```
+
 **JavaScript**
+
 ```
 const josh = new Josh({
     // DOM CSS class to Animate, default is "josh-js"
@@ -69,10 +84,13 @@ const josh = new Josh({
     onDOMChange: false,
   });
 ```
+
 ## Dependencies
+
 - [animate.css](https://github.com/daneden/animate.css)
 
 ## Browser Support
+
 All morder browser are supported. Because of written in ES6 and modern web API Internet Explorer will not support.
 Here you can check supported browser:
 
