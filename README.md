@@ -1,27 +1,27 @@
 # Josh.js
 
-#### A JavaScript library to animate content on page scroll.
+## A JavaScript library to animate content on page scroll
 
-  - No jQuery Dependency
-  - Written on ES6(Compiled ES5 version available)
-  - Very much lightweight, Only 2KB &#x1F618; 
-  - Animate using [Animate.css](https://github.com/daneden/animate.css) library
-  - You can use your own CSS animation library
-  - Work on newly created DOM
+- No jQuery Dependency
+- Written on ES6(Compiled ES5 version available)
+- Very much lightweight, Only 2KB &#x1F618;
+- Animate using [Animate.css](https://github.com/daneden/animate.css) library
+- You can use your own CSS animation library
+- Work on newly created DOM
 
-## [See it in action!](https://mamunhpath.github.io/josh.js/) 
+## [See it in action!](https://mamunhpath.github.io/josh.js/)
 
 **&#x1F49D; Loved it, Press the Star Button &#x1F49D;**
 
 ## Installation
 
-#### Using NPM
+## Using NPM
 
 ```
-$ npm install joshjs
+npm install joshjs
 ```
 
-#### Using HTML <script> tag
+## Using HTML &#12296;script&#9002; tag
 
 ```
 <script src="js/josh.min.js">
@@ -30,7 +30,7 @@ $ npm install joshjs
 <script src="js/josh.es5.min.js">
 ```
 
-### How to Markup
+## How to Markup
 
 ```
 <div class="josh-js" data-josh-anim-name="fadeInUp">A JavaScript library to animate content on page scroll.</div>
@@ -40,7 +40,7 @@ $ npm install joshjs
 data-josh-anim-name="fadeInUp"
 ```
 
-### JavaScript
+## JavaScript
 
 ```
 const josh = new Josh();
@@ -48,7 +48,7 @@ const josh = new Josh();
 
 If you markup and called JavaScript like above so that you are good to go!
 
-### Advanced usage
+## Advanced usage
 
 **HTML**
 
@@ -70,16 +70,16 @@ If you markup and called JavaScript like above so that you are good to go!
 const josh = new Josh({
     // DOM CSS class to Animate, default is "josh-js"
     initClass: "josh-js",
-    
+
     // Animation CSS class from Animate.css library
     animClass: "animate__animated",
-    
+
     // Element distance of viewport to triggering the animation. default is 0.2 means 20% of element view animation will trigger
     offset: 0.2,
-    
+
     // Animation will trigger on Mobile or not. Default is true
     animateInMobile: true,
-    
+
     // Animation will trigger on newly added element or not. Default is false
     onDOMChange: false,
   });
@@ -107,18 +107,17 @@ If you want to support Internet Explore so that you can use Polifill for Interse
 ## Developer
 
 **Developed by Al Mamun**
-+ [Github Profile](//github.com/mamunhpath)
-+ [Linked In](https://www.linkedin.com/in/al-mamun-38874348/)
-+ [Facebook Profile](//facebook.com/mamunhpath)
 
-### Want to contribute? Great!
+- [Github Profile](//github.com/mamunhpath)
+- [Linked In](https://www.linkedin.com/in/al-mamun-38874348/)
+- [Facebook Profile](//facebook.com/mamunhpath)
+
+## Want to contribute? Great!
 
 Fork it, clone it to your PC, fix the issue, push to your repository, Make a pull request to this repository. You are done!
 
-License
-----
+## License
 
 MIT
-
 
 **Free Software, Hell Yeah!**
