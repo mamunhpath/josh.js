@@ -26,6 +26,7 @@ $ npm install joshjs
 ### How to Markup
 ```sh
 <div class="josh-js" data-josh-anim-name="fadeInUp">A JavaScript library to animate content on page scroll.</div>
+  
 // You have to provide below data attribute with animation name from Animate.css library or your own library
 data-josh-anim-name="fadeInUp"
 ```
@@ -73,11 +74,15 @@ const josh = new Josh({
 ## Browser Support
 All morder browser are supported. Because of written in ES6 and modern web API Internet Explorer will not support.
 Here you can check supported browser:
+
 [IntersectionObserver](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver) Not supported by IE.
+
 [MutationObserver](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver) Supported by IE 11.
 
 If you want to support Internet Explore so that you can use Polifill for IntersectionObserver.
+
 [IntersectionObserver Polifill 1](https://github.com/w3c/IntersectionObserver/tree/master/polyfill)
+
 [IntersectionObserver Polifill 2](https://www.npmjs.com/package/intersection-observer-polyfill)
 
 ## Developer
