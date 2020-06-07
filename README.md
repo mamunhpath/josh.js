@@ -52,7 +52,9 @@ https://unpkg.com/joshjs@1.0.0/dist/josh.min.js
 https://unpkg.com/joshjs@1.0.0/dist/josh.min.js
 ```
 
-## How to Markup
+## Usage
+
+## HTML
 
 ```
 <div class="josh-js" data-josh-anim-name="fadeInUp">A JavaScript library to animate content on page scroll.</div>
@@ -62,13 +64,13 @@ https://unpkg.com/joshjs@1.0.0/dist/josh.min.js
 data-josh-anim-name="fadeInUp"
 ```
 
-**How to get animation**
+**How to get animation name**
 
 Go to [Animate.css](https://animate.style/) website. Copy the animation class name from right panel, you will get class name like "animate__backInDown" remove "animate__" you get animation name like "backInDown" add this to above data attribute.
 
 ## CSS
 
-Add this css file to your HTML
+Add this css file to your HTML file.
 
 ```
 <link rel="stylesheet" href="css/animate.css" />
@@ -80,7 +82,7 @@ Add this css file to your HTML
 const josh = new Josh();
 ```
 
-If you markup and called JavaScript like above so that you are good to go!
+If you write HTML, added CSS file and called JavaScript like above so that you are good to go!
 
 ## Advanced usage
 
