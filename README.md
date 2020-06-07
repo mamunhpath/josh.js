@@ -15,13 +15,13 @@
 
 ## Installation
 
-## Using NPM
+**Using NPM**
 
 ```
 npm install joshjs
 ```
 
-## Using HTML &#12296;script&#9002; tag
+**Using HTML &#12296;script&#9002; tag**
 
 ```
 <script src="js/josh.min.js">
