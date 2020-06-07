@@ -62,6 +62,18 @@ https://unpkg.com/joshjs@1.0.0/dist/josh.min.js
 data-josh-anim-name="fadeInUp"
 ```
 
+**How to get animation**
+
+Go to [Animate.css](https://animate.style/) website. Copy the animation class name from right panel, you will get class name like "animate__backInDown" remove "animate__" you get animation name like "backInDown" add this to above data attribute.
+
+## CSS
+
+Add this css file to your HTML
+
+```
+<link rel="stylesheet" href="css/animate.css" />
+```
+
 ## JavaScript
 
 ```
