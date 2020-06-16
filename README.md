@@ -127,7 +127,7 @@ const josh = new Josh({
 
 ## Browser Support
 
-All morder browser are supported. Because of written in ES6 and modern web API Internet Explorer will not support.
+All modern browsers are supported. Because of written in ES6 and modern web API Internet Explorer will not support.
 Here you can check supported browser:
 
 [IntersectionObserver](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver) Not supported by IE.
