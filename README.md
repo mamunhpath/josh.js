@@ -49,7 +49,7 @@ https://cdn.jsdelivr.net/npm/joshjs@1.0.0/dist/josh.es5.min.js
 https://unpkg.com/joshjs@1.0.0/dist/josh.min.js
 
 //ES5
-https://unpkg.com/joshjs@1.0.0/dist/josh.min.js
+https://unpkg.com/joshjs@1.0.0/dist/josh.es5.min.js
 ```
 
 ## Usage
