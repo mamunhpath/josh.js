@@ -1,6 +1,6 @@
 /**
  * Josh.js - A JavaScript library to animate content on page scroll.
- * Version: 1.0.0
+ * Version: 1.0.8
  * Author: Al Mamun
  * License: MIT
  * Repo: https://github.com/mamunhpath/josh.js
@@ -34,14 +34,14 @@ export default class Josh {
   // Callback function for intersection observer
   intersectionObserverCallback(entries, observer) {
     const notMobile = !this.animateInMobile && this.isMobile();
-    entries.forEach(entry => {
+    entries.forEach((entry) => {
       //Selecting target element
       const targetElm = entry.target;
       //Taking data from data attribute
       const name = targetElm.dataset.joshAnimName, // Class name from animate.css
         iteration = targetElm.dataset.joshIteration, // Animation iteration count
         duration = targetElm.dataset.joshDuration, // Animation duration
-        delay = targetElm.dataset.joshDelay; // Animation delay
+        delay = targetElm.dataset.joshAnimDelay; // Animation delay
 
       if (entry.isIntersecting) {
         let styles = `
@@ -63,7 +63,7 @@ export default class Josh {
   //Adding css to DOM
   addCss(targetElm) {
     if (targetElm.length > 0) {
-      targetElm.forEach(elm => {
+      targetElm.forEach((elm) => {
         this.cssUtil(elm);
       });
     } else {
@@ -88,12 +88,12 @@ export default class Josh {
         {
           root: null,
           rootMargin: "0px",
-          threshold: this.offset
+          threshold: this.offset,
         }
       );
       if (domElement.length > 0) {
         //Observing every element
-        domElement.forEach(animItem => {
+        domElement.forEach((animItem) => {
           intetsectObserver.observe(animItem);
         });
       } else {
@@ -113,11 +113,11 @@ export default class Josh {
     window.addEventListener("DOMContentLoaded", () => {
       if (this.onDOMChange) {
         // Using MutationObserver to check DOM change
-        const domChangeObserver = new MutationObserver(mutations => {
-          mutations.forEach(mutation => {
+        const domChangeObserver = new MutationObserver((mutations) => {
+          mutations.forEach((mutation) => {
             const newNodes = mutation.addedNodes; // DOM NodeList
             if (newNodes !== null) {
-              newNodes.forEach(node => {
+              newNodes.forEach((node) => {
                 //Calling IntersectionObserver again for DOM change
                 this.addCss(node);
                 this.intersectOnScroll(node);
@@ -128,7 +128,7 @@ export default class Josh {
         // Options for the observer (which mutations to observe)
         const config = {
           childList: true,
-          subtree: true
+          subtree: true,
         };
 
         // Start observing the target node for configured mutations
