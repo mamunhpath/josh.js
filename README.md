@@ -15,7 +15,7 @@
 
 ## Usage
 
-**First you need to go in "module_example" folder then follow next steps.**
+**First you need to go into "module_example" folder, then follow next steps. Also check app.js and script tag of index.html file for understanding how it works.**
 
 **HTML**
 
