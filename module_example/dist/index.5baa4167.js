@@ -520,6 +520,9 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"igcvL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+// Importing animate.css
+var _animateCss = require("animate.css");
+// Importing joshjs
 var _joshjs = require("joshjs");
 var _joshjsDefault = parcelHelpers.interopDefault(_joshjs);
 document.addEventListener("DOMContentLoaded", ()=>{
@@ -539,7 +542,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     });
 });
 
-},{"joshjs":"5P5JJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5P5JJ":[function(require,module,exports) {
+},{"animate.css":"8t3va","joshjs":"5P5JJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8t3va":[function() {},{}],"5P5JJ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 class Josh {

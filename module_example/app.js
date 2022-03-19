@@ -1,4 +1,9 @@
+// Importing animate.css
+import "animate.css";
+
+// Importing joshjs
 import Josh from "joshjs";
+
 document.addEventListener("DOMContentLoaded", () => {
   const josh = new Josh({
     initClass: "josh-js",

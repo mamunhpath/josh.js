@@ -13,52 +13,15 @@
 
 **&#x1F49D; Loved it, Press the Star Button &#x1F49D;**
 
-## Installation
-
-**Using NPM**
-
-```
-npm install joshjs
-```
-
-**Using HTML &#12296;script&#9002; tag**
-
-```
-<script src="js/josh.min.js">
-  
-// Or use ES5
-<script src="js/josh.es5.min.js">
-```
-## CDN
-
-**jsDelivr**
-
-```
-//ES6
-https://cdn.jsdelivr.net/npm/joshjs@1.0.0/dist/josh.min.js
-
-//ES5
-https://cdn.jsdelivr.net/npm/joshjs@1.0.0/dist/josh.es5.min.js
-
-```
-
-**UNPKG**
-
-```
-//ES6
-https://unpkg.com/joshjs@1.0.0/dist/josh.min.js
-
-//ES5
-https://unpkg.com/joshjs@1.0.0/dist/josh.es5.min.js
-```
-
 ## Usage
+
+**First you need to go in "module_example" folder then follow next steps.**
 
 **HTML**
 
 ```
 <div class="josh-js" data-josh-anim-name="fadeInUp">A JavaScript library to animate content on page scroll.</div>
-  
+
 // You have to provide below data attribute with animation name from Animate.css library or your own library
 
 data-josh-anim-name="fadeInUp"
@@ -66,7 +29,7 @@ data-josh-anim-name="fadeInUp"
 
 **How to get animation name**
 
-Go to [Animate.css](https://animate.style/) website. Copy the animation class name from right panel, you will get class name like "animate__backInDown" remove "animate__" you get animation name like "backInDown" add this to above data attribute.
+Go to [Animate.css](https://animate.style/) website. Copy the animation class name from right panel, you will get class name like "animate**backInDown" remove "animate**" you get animation name like "backInDown" add this to above data attribute.
 
 **CSS**
 
@@ -76,49 +39,20 @@ Add this css file to your HTML file.
 <link rel="stylesheet" href="css/animate.css" />
 ```
 
-**JavaScript**
+**Module Style**
 
 ```
-const josh = new Josh();
+npm install
 ```
 
 If you write HTML, added CSS file and called JavaScript like above so that you are good to go!
 
-## Advanced usage
+**Run with Parcel**
 
-**HTML**
-
-```
-<div
-    class="element josh-js"
-    data-josh-anim-name="lightSpeedInRight"
-    data-josh-duration="1500ms"
-    data-josh-anim-delay="3.5s"
-    data-josh-iteration="infinite"
->
-    Written on ES6
-</div>
-```
-
-**JavaScript**
+I am using Parceljs as module bundler. Run the following command your dev server will run.
 
 ```
-const josh = new Josh({
-    // DOM CSS class to Animate, default is "josh-js"
-    initClass: "josh-js",
-
-    // Animation CSS class from Animate.css library
-    animClass: "animate__animated",
-
-    // Element distance of viewport to triggering the animation. default is 0.2 means 20% of element view animation will trigger
-    offset: 0.2,
-
-    // Animation will trigger on Mobile or not. Default is true
-    animateInMobile: true,
-
-    // Animation will trigger on newly added element or not. Default is false
-    onDOMChange: false,
-  });
+npx parcel index.html
 ```
 
 ## Dependencies

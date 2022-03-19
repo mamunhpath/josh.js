@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "joshjs": "^1.0.7"
   },
   "devDependencies": {
