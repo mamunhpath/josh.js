@@ -21,14 +21,17 @@
 npm install joshjs
 ```
 
+**If you are facing issue using as node module then please check the "asModule" branch. I have added example code for that.**
+
 **Using HTML &#12296;script&#9002; tag**
 
 ```
 <script src="js/josh.min.js">
-  
+
 // Or use ES5
 <script src="js/josh.es5.min.js">
 ```
+
 ## CDN
 
 **jsDelivr**
@@ -58,7 +61,7 @@ https://unpkg.com/joshjs@1.0.0/dist/josh.es5.min.js
 
 ```
 <div class="josh-js" data-josh-anim-name="fadeInUp">A JavaScript library to animate content on page scroll.</div>
-  
+
 // You have to provide below data attribute with animation name from Animate.css library or your own library
 
 data-josh-anim-name="fadeInUp"
@@ -66,7 +69,7 @@ data-josh-anim-name="fadeInUp"
 
 **How to get animation name**
 
-Go to [Animate.css](https://animate.style/) website. Copy the animation class name from right panel, you will get class name like "animate__backInDown" remove "animate__" you get animation name like "backInDown" add this to above data attribute.
+Go to [Animate.css](https://animate.style/) website. Copy the animation class name from right panel, you will get class name like "animate**backInDown" remove "animate**" you get animation name like "backInDown" add this to above data attribute.
 
 **CSS**
 
