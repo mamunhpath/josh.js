@@ -1,6 +1,6 @@
 {
   "name": "joshjs",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "A JavaScript library to animate content on page scroll.",
   "main": "es6_module/josh.js",
   "directories": {
