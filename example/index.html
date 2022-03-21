@@ -114,67 +114,70 @@
         <h2 class="josh-js" data-josh-anim-name="fadeInUp">
           A JavaScript library to animate content on page scroll.
         </h2>
-        <a class="get-button josh-js" data-josh-anim-name="flipInX" href="https://github.com/mamunhpath/josh.js"
+        <a
+          class="get-button josh-js"
+          data-josh-anim-name="flipInX"
+          href="https://github.com/mamunhpath/josh.js"
           >View on Github</a
         >
       </header>
       <div
         class="element josh-js"
-        style="background: #ffe9c5; color: #444;"
+        style="background: #ffe9c5; color: #444"
         data-josh-anim-name="zoomInDown"
-        data-josh-anim-delay="3.5s"
+        data-josh-anim-delay="300ms"
       >
         Let's start scrolling!
       </div>
       <div
         class="element josh-js"
-        style="background: #b4f2e1;"
+        style="background: #b4f2e1"
         data-josh-anim-name="lightSpeedInLeft"
         data-josh-duration="1500ms"
-        data-josh-anim-delay="3.5s"
+        data-josh-anim-delay="300ms"
       >
         No jQuery Dependency
       </div>
       <div
         class="element josh-js"
-        style="background: #eb6383; color: #fff;"
+        style="background: #eb6383; color: #fff"
         data-josh-anim-name="lightSpeedInRight"
         data-josh-duration="1500ms"
-        data-josh-anim-delay="3.5s"
+        data-josh-anim-delay="300ms"
       >
         Written on ES6 &#x1F49D;
       </div>
       <div
         class="element josh-js"
-        style="background: #000; color: #ffe9c5;"
+        style="background: #000; color: #ffe9c5"
         data-josh-anim-name="fadeInDown"
-        data-josh-anim-delay="2.5s"
+        data-josh-anim-delay="200ms"
       >
         Animate using Animate.css library.
       </div>
       <div
         class="element josh-js"
-        style="background: #ffe9c5; color: #000;"
+        style="background: #ffe9c5; color: #000"
         data-josh-anim-name="fadeInUp"
-        data-josh-anim-delay="2.5s"
+        data-josh-anim-delay="200ms"
       >
         Or use your own CSS animation library.
       </div>
       <div
         class="element josh-js"
-        style="background: #b4f2e1;"
+        style="background: #b4f2e1"
         data-josh-anim-name="rotateInDownLeft"
         data-josh-duration="1500ms"
-        data-josh-anim-delay="3.5s"
+        data-josh-anim-delay="300ms"
       >
         Only 2KB &#x1F618;
       </div>
       <div
         class="element josh-js"
-        style="background: #eb6383; color: #fff;"
+        style="background: #eb6383; color: #fff"
         data-josh-anim-name="jackInTheBox"
         data-josh-duration="1500ms"
-        data-josh-anim-delay="3.5s"
+        data-josh-anim-delay="300ms"
       >
         Work on newly created DOM.
       </div>
@@ -186,11 +189,11 @@
         initClass: "josh-js",
         animateInMobile: true,
         offset: 0.3,
-        onDOMChange: true
+        onDOMChange: true,
       });
       document
         .getElementById("load-more")
-        .addEventListener("click", function() {
+        .addEventListener("click", function () {
           var div = document.createElement("div");
           div.className = "element josh-js";
           div.textContent = "I am newly created DOM!";
