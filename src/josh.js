@@ -62,7 +62,7 @@ class Josh {
   }
   //Adding css to DOM
   addCss(targetElm) {
-    if (targetElm.length > 0) {
+    if (targetElm instanceof NodeList) {
       targetElm.forEach((elm) => {
         this.cssUtil(elm);
       });
@@ -91,7 +91,7 @@ class Josh {
           threshold: this.offset,
         }
       );
-      if (domElement.length > 0) {
+      if (domElement instanceof NodeList) {
         //Observing every element
         domElement.forEach((animItem) => {
           intetsectObserver.observe(animItem);
