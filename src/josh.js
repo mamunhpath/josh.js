@@ -14,6 +14,8 @@ class Josh {
     this.initDom = document.querySelectorAll("." + this.initClass);
     // Animation library class. Default class is 'animate__animated'
     this.animClass = options.animClass || "animate__animated";
+    // Intersection observer root margin (e.g. "0px 0px -20% 0px" animates the element once it reaches 20% from the bottom of the viewport)
+    this.margin = options.margin || "0px";
     // Number 0 to 1, 0.2 means if the element come to 20% percent of view it will animate. Default value is 0.2
     this.offset = options.offset || 0.2;
     // Boolean value to animate in mobile or not. Default value is true
@@ -87,7 +89,7 @@ class Josh {
         this.intersectionObserverCallback.bind(this),
         {
           root: null,
-          rootMargin: "0px",
+          rootMargin: this.margin,
           threshold: this.offset,
         }
       );
